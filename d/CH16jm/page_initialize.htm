@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>测试page事件</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--引用jQuery Mobile函数库  应用ThemeRoller制作的样式-->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile.structure-1.1.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+
+<!--最佳化屏幕宽度-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+$('#first').live('pageinit', function() {
+alert("pageinit");
+});
+
+$('#first').live('pagebeforecreate', function() {
+alert("pagebeforecreate");
+});
+
+$('#first').live('pagecreate', function() {
+alert("pagecreate");
+});
+</script>
+</head>
+<body>
+<div data-role="header">
+</div>
+<div data-role="content" id="content">
+</div>
+</body>
+</html>

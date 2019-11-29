@@ -1,0 +1,121 @@
+﻿@charset "UTF-8";
+/*初始化  reset*/
+* {margin: 0;padding: 0;}
+body{height:100%;}
+body,button,input,select,textarea{font:26px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;}
+a,button{cursor:pointer;}
+.one{
+	border-radius:50px;
+	border:1px solid #e3e197;
+	background:#ffffdd;
+	position:absolute;
+	top:5%;
+	left:30%;
+	width:40%;
+	height:40%;
+	z-index:-1;
+	text-align:center;
+}
+video{
+	margin-top:3%;
+	height:70%;
+	width:70%;
+}
+audio{
+	width:65%;
+	height:20%;
+}
+.two {
+	position: absolute;
+	top: 42%;
+	left: 0%;
+	width: 350px;
+	height: 350px;
+	margin: 50px;
+	border: 2px solid #ccc;
+}
+.big {
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 5px;
+	left: 360px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	display: none;
+}
+.mask {
+	width: 50%;
+	height: 50%;
+	background: rgba(255, 255, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: move;
+	display: none;
+}
+.small {
+	position: relative;
+}
+.small img {
+	vertical-align: top;
+}		
+.big img {
+	vertical-align: top;
+}		
+.wrap{
+    width:39%;
+	height:35%;
+    margin:1%;
+	margin-left:10.5%;
+	margin-right:10.5%;
+	position:absolute;
+	top:43%;
+	left:35%;
+}
+.slide {
+    height:100%;
+	width:100%;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:6%;
+    height:22%;
+    position: absolute;
+    top:50%;
+    margin-top:-4.5%;
+    background:url(../images/prev.png);
+	background-size:cover;
+    z-index: 99;
+}
+.next{
+    right:0;
+    background-image: url(../images/next.png);
+}
+.three{
+	position:absolute;
+	top:90%;
+	text-align:center;
+	width:100%;
+}
+
+
+
+
+
+
+
+

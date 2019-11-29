@@ -1,7 +1,7 @@
 ﻿@charset "UTF-8";
 /*初始化  reset*/
 * {margin: 0;padding: 0;}
-body{height:80%;width:80%;}
+body{height:75%;width:75%;}
 body,button,input,select,textarea{font:26px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
 ol,ul{list-style:none}
 a{text-decoration:none}
